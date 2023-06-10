@@ -1,0 +1,155 @@
+.navbar {
+    background-color: white;
+}
+
+.navbar li a {
+    
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.navbar li a:hover {
+    color: royalblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.navbar-brand {
+    color: royalblue;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+
+#showcase{
+    margin-top: 75px;
+}
+
+
+#skills {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#skills svg.svg-inline--fa {
+    font-size: 5rem;
+    margin: auto;
+    
+    margin-top: 10px;
+}
+
+#skills svg.svg-inline--fa:hover {
+    color: royalblue;
+}
+
+#about{
+    margin-top: 75px;
+}
+
+#projectsshow img {
+    width: 100%;
+    height: 500px;
+   
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+.carousel-caption {
+    font-size: 1.1rem;
+
+}
+
+.cap1 h3 {
+    color: royalblue;
+}
+
+.cap1 p {
+    color: orangered;
+}
+
+.carousel {
+    background-color: white;
+}
+.carousel-control-next,.carousel-control-prev {
+    filter: invert(100%);
+}
+.carousel-indicators li{
+    display: none;
+}
+.cap1{
+    margin-top: 15px;
+}
+.portfolio-item{
+    overflow: hidden;
+}
+
+.portfolio-img{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+#footer {
+    background-color: black;
+    margin-top: 100px;
+    width: 100%;
+}
+#contact {
+    color: white;
+}
+
+#contact svg.svg-inline--fa {
+    color: white;
+    font-size: 1.8rem
+}
+
+#contact svg.svg-inline--fa:hover {
+    color: orangered;
+}
+
+.contain {
+    position: relative;
+    width: 100%;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .contain:hover .portfolio-img {
+    opacity: 0.3;
+  }
+  
+  .contain:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:beige;
+  }
